@@ -1,11 +1,19 @@
 import './App.css';
+import Content from './Content';
+import Hero from './Hero';
+import Navbar from './Navbar';
+import Column from './Column';
+import Footer from './Footer';
+
 
 function App() {
   return (
     <div className="App">
-        <h1 className="text-4xl font-bold">
-          Template
-        </h1>
+      <Navbar/>
+      <Hero/>
+
+      <Content/>
+      <Footer/>
     </div>
   );
 }
