@@ -5,7 +5,7 @@ function Content() {
   return (
     <div className='flex flex-col md:flex-row m-10'>
         {/* Left Column */}
-        <div className='flex flex-col md:w-1/2'> 
+        <div className='flex flex-col md:w-2/3'> 
             <div className='left'>
                 <div className="text-purple text-3xl text-start my-4 font-display">
                     Bringing your vision to life
